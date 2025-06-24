@@ -6,7 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Production builds
-build/
+# build/ - commenting out to include build files for deployment
 dist/
 *.tgz
 *.tar.gz
