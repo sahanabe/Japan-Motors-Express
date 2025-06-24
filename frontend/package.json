@@ -2,35 +2,39 @@
   "name": "japan-car-express-frontend",
   "version": "1.0.0",
   "description": "Frontend for Japan Car Express",
+  "homepage": "https://sahanabe.github.io/Japan-Motors-Express",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.15.0",
     "axios": "^1.5.0",
-    "socket.io-client": "^4.7.2",
-    "react-query": "^3.39.3",
+    "js-cookie": "^3.0.5",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-countdown": "^2.3.5",
+    "react-dom": "^18.2.0",
     "react-hook-form": "^7.45.4",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.10.1",
-    "react-select": "^5.7.4",
     "react-image-gallery": "^1.2.12",
-    "react-countdown": "^2.3.5",
-    "moment": "^2.29.4",
-    "js-cookie": "^3.0.5",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.15.0",
+    "react-select": "^5.7.4",
+    "socket.io-client": "^4.7.2",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "react-scripts": "5.0.1",
-    "tailwindcss": "^3.3.3",
+    "@types/js-cookie": "^3.0.3",
     "autoprefixer": "^10.4.15",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.29",
-    "@types/js-cookie": "^3.0.3"
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -50,4 +54,4 @@
     ]
   },
   "proxy": "http://localhost:5000"
-} 
+}
