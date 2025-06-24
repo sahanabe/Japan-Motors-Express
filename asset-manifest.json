@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Japan-Motors-Express/static/css/main.9c060547.css",
+    "main.js": "/Japan-Motors-Express/static/js/main.8fb0d417.js",
+    "index.html": "/Japan-Motors-Express/index.html",
+    "main.9c060547.css.map": "/Japan-Motors-Express/static/css/main.9c060547.css.map",
+    "main.8fb0d417.js.map": "/Japan-Motors-Express/static/js/main.8fb0d417.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c060547.css",
+    "static/js/main.8fb0d417.js"
+  ]
+}
